@@ -14,6 +14,7 @@ class TaskSubscriber(Node):
             self.listener_callback,
             10
         )
+        self.subscription
         self.task_queue = task_queue
 
     def listener_callback(self, msg):

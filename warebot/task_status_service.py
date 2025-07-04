@@ -11,8 +11,7 @@ class TaskStatusService(Node):
     def handle_task_status(self, request, response):
         self.get_logger().info(f"Received task status request: {request.task_id}")
         
-        # Here you would normally check the status of the task
-        # For demonstration, we will just return a dummy status
+        # Insert status handling logic
         response.status = "Task completed successfully"
         
         self.get_logger().info(f"Returning status for task {request.task_id}: {response.status}")

@@ -15,7 +15,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   DEPENDENCIES std_msgs
 )
 
-# Install Python executables directly
 install(PROGRAMS
   warebot/task.py
   DESTINATION lib/${PROJECT_NAME}

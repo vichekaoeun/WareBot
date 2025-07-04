@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import rclpy
 import json
 from std_msgs.msg import String
